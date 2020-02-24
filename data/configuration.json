@@ -1,0 +1,67 @@
+{
+    "steps": [
+      {
+        "id": 13,
+        "name": "المرحلة الاولى",
+        "chapters": "[29,30]",
+        "recitationtemplate_id": 1,
+        "created_at": "2019-12-25 16:03:17",
+        "updated_at": "2019-12-25 16:04:17",
+        "step_rev_id": null
+      },
+      {
+        "id": 14,
+        "name": "المرحلة الثانية",
+        "chapters": "[26,27,28]",
+        "recitationtemplate_id": 1,
+        "created_at": "2019-12-25 16:03:43",
+        "updated_at": "2019-12-25 19:17:13",
+        "step_rev_id": 13
+      },
+      {
+        "id": 15,
+        "name": "المرحلة الثالثة",
+        "chapters": "[25,24,23,22,21]",
+        "recitationtemplate_id": 1,
+        "created_at": "2019-12-26 20:14:32",
+        "updated_at": "2019-12-26 20:15:16",
+        "step_rev_id": 14
+      },
+      {
+        "id": 16,
+        "name": "المرحلة الرابعة",
+        "chapters": "[20,19,18,17,16]",
+        "recitationtemplate_id": 1,
+        "created_at": "2019-12-27 19:46:11",
+        "updated_at": "2019-12-27 19:46:40",
+        "step_rev_id": 15
+      },
+      {
+        "id": 17,
+        "name": "المرحلة الخامسة",
+        "chapters": "[15,14,13,12,11]",
+        "recitationtemplate_id": 1,
+        "created_at": "2019-12-27 21:23:32",
+        "updated_at": "2019-12-27 21:23:51",
+        "step_rev_id": 16
+      },
+      {
+        "id": 18,
+        "name": "المرحلة السادسة",
+        "chapters": "[10,9,8,7,6]",
+        "recitationtemplate_id": 1,
+        "created_at": "2019-12-28 07:42:59",
+        "updated_at": "2019-12-28 07:43:41",
+        "step_rev_id": 17
+      },
+      {
+        "id": 19,
+        "name": "المرحلة السابعة",
+        "chapters": "[5,4,3,2,1]",
+        "recitationtemplate_id": 1,
+        "created_at": "2019-12-28 19:20:34",
+        "updated_at": "2019-12-28 19:20:45",
+        "step_rev_id": 18
+      }
+    ]
+  }

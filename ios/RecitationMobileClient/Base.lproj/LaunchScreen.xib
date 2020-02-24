@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ios_splash" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ZT-BV-XyC">
+                    <rect key="frame" x="0.0" y="0.0" width="627.66666666666663" height="896"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4ZT-BV-XyC" secondAttribute="height" multiplier="575:821" id="Es0-ll-uFE"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.65849751234054565" green="0.8005414605140686" blue="0.801341712474823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4ZT-BV-XyC" secondAttribute="trailing" id="88G-Ow-X3b"/>
+                <constraint firstItem="4ZT-BV-XyC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SH0-Yh-5Zg"/>
+                <constraint firstAttribute="bottom" secondItem="4ZT-BV-XyC" secondAttribute="bottom" id="dfP-Tj-FnZ"/>
+                <constraint firstItem="4ZT-BV-XyC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="egm-vy-aIQ"/>
+                <constraint firstAttribute="trailing" secondItem="4ZT-BV-XyC" secondAttribute="trailing" id="gE3-8w-L86"/>
+                <constraint firstAttribute="trailing" secondItem="4ZT-BV-XyC" secondAttribute="trailing" id="hwJ-xU-Dd4"/>
+                <constraint firstItem="4ZT-BV-XyC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="n8n-v1-mVp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="528.05755395683457" y="496.94244604316549"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ios_splash" width="575" height="821"/>
+    </resources>
+</document>
